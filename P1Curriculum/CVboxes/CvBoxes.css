@@ -1,0 +1,140 @@
+.BigBox{
+   height: 180px;
+   width: 90px;
+   padding: 340px;
+   background-color: bisque;
+}
+
+#FotoyNombre {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    height: 20px;
+    width: 100px;
+    padding: 80px;
+    background-color: rgb(86, 236, 226)
+
+}
+
+#Contacto {
+
+    position: absolute;
+    top: 225px;
+    left: 30px;
+    height: 55px;
+    width: 100px;
+    padding: 80px;
+    background-color: rgb(86, 236, 226)
+
+}
+
+#Aptitudes {
+    position: absolute;
+    top: 460px;
+    left: 30px;
+    height: 220px;
+    width: 100px;
+    padding: 80px;
+    background-color: rgb(86, 236, 226)
+}
+
+#profesion {
+    position: absolute;
+    top: 31px;
+    left: 300px;
+    height: 25px;
+    width: 397px;
+    padding: 35px;
+    background-color: rgb(15, 118, 111)
+}
+
+#WorkExperience {
+    position: absolute;
+    top: 135px;
+    left: 300px;
+    height: 235px;
+    width: 397px;
+    padding: 35px;
+    background-color: rgb(15, 118, 111)
+}
+
+#Education { 
+    position: absolute;
+    top: 460px;
+    left: 300px;
+    height: 310px;
+    width: 397px;
+    padding: 35px;
+    background-color: rgb(15, 118, 111)
+}
+
+#nombre {
+    position: absolute;
+    top: 135px;
+    left: 45px;
+    height: 20px;
+    width: 190px;
+    padding: 20px;
+    background-color: rgb(141, 254, 107)
+
+}
+
+#languages {
+    position: absolute;
+    top: 480px;
+    left: 45px;
+    height: 20px;
+    width: 190px;
+    padding: 20px;
+    background-color: rgb(141, 254, 107)
+}
+
+#Software {
+    position: absolute;
+    top: 550px;
+    left: 45px;
+    height: 20px;
+    width: 190px;
+    padding: 20px;
+    background-color: rgb(141, 254, 107)
+}
+
+#skills {
+    position: absolute;
+    top: 620px;
+    left: 45px;
+    height: 20px;
+    width: 190px;
+    padding: 20px;
+    background-color: rgb(141, 254, 107)   
+}
+
+#volunteering {
+    position: absolute;
+    top: 690px;
+    left: 45px;
+    height: 90px;
+    width: 190px;
+    padding: 20px;
+    background-color: rgb(141, 254, 107)  
+}
+
+#experiencias { 
+    position: absolute;
+    top: 150px;
+    left: 319px;
+    height: 205px;
+    width: 360px;
+    padding: 35px;
+    background-color: rgb(178, 218, 20)
+}
+
+#formaciones { 
+    position: absolute;
+    top: 480px;
+    left: 319px;
+    height: 270px;
+    width: 360px;
+    padding: 35px;
+    background-color: rgb(178, 218, 20)
+}

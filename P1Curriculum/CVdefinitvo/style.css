@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Enriqueta';
+    src: url(./Enriqueta/Enriqueta-Medium.ttf) format(truetype);
+    font-style: normal;
+    font-weight: normal;
+}
+body {
+    display:flex;
+    background-color: blanchedalmond;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin-left: 0;
+    margin-right: 0;
+}
+   section {
+    box-shadow: 8px 5px 5px grey;
+    display: flex;
+    background-color: plum;
+    width: 50vw;
+    height: 100vh;
+    margin: 0;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+    .leftBanner {  
+    border: 2px solid #2C6562;
+    border-right: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 15vw;
+    height: 100vh;
+    background: linear-gradient(180deg, #E3FFFD 3.12%, #30E9DE 40.63%, #028C84 86.46%);  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+    
+    .foto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top:2vh;
+    }
+
+    .contenedorImagen {
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+        
+    }
+    
+    #ImgRedonda {
+    width: 10vw;
+    height: 23vh;
+    object-fit: cover; /* Crop the image so as not to distort it */
+    object-position: center;
+    border: 4px solid #2C6562;
+    border-radius: 50%;
+    }    
+
+    .contenedorNombre {
+    text-align: center;
+    margin: 0 auto;
+    }
+
+    #Nombre{ 
+    width: 12vw;
+    height: auto;
+    font-family:'Enriqueta';
+    text-align: center;
+    font-size: 80%;
+    margin: 0;
+    }
+    
+    ul {
+    list-style-type: none;
+    }
+    .ul {
+        padding: 0%;
+    }
+    
+     .contacto {
+        display: flex;
+        flex-flow: wrap column;
+        font-style: normal;
+        font-size: small;
+        font-weight: bold;
+        padding-top: 0vh;   
+        padding-left: 15%;
+     }
+
+     .actividadesHobbies {
+        display: flex;
+        text-align:left;
+        font-size:small;
+        padding-right: 13%;
+        padding-left: 15%;
+     }
+    
+     .rightBanner {
+        background-color: #E3FFFD;
+        border: solid 2px #2C6562;
+        border-left: 0px;
+        width: 35vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        padding-left: 3%;
+     }
+
+     .profesion { 
+       text-align: center;
+       padding-right: 10%;
+       font-family: 'Enriqueta';
+       font-weight: 700;
+       border-bottom: solid #2C6562;
+      
+           }
+
+    .education {
+        padding-top: 10vh;
+    }
+    
+    
+    
+    
